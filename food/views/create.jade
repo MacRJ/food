@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  
+  H1 Please Create User
+  
+  form(action="/users/create/new" method="POST")
+    input(type="text" name="username" PlaceHolder="username")
+    br
+    input(type="password" name="password" PlaceHolder="password")
+    br
+    br
+    input(type="password" name="verify" PlaceHolder="verify")
+    br
+    br
+    input(type="text" name="Favorite_Food" PlaceHolder="Favorite Food")
+    br
+    input(type="text" name="Least_Favorite_Food" PlaceHolder="Least Favorite Food")
+    br
+    button(type="submit") Submit

@@ -3,3 +3,12 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+
+  a(href="/users/")
+    h1 Click for Users
+  a(href="/users/create/")
+    h1 Click to Create User  
+      
+  //- h2
+  //-   input(action="/users/create" method="GET")
+  //-     button(type="submit")Click to Create
